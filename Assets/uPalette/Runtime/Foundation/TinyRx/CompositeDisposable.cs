@@ -6,7 +6,7 @@ namespace uPalette.Runtime.Foundation.TinyRx
     /// <summary>
     ///     Class for handling multiple IDisposable transparently.
     /// </summary>
-    internal sealed class CompositeDisposable : IDisposable
+    public sealed class CompositeDisposable : IDisposable
     {
         private readonly List<IDisposable> _disposables;
 

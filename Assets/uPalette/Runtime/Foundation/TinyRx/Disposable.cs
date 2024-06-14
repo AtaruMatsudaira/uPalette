@@ -5,7 +5,7 @@ namespace uPalette.Runtime.Foundation.TinyRx
     /// <summary>
     ///     Implementation of <see cref="IDisposable" /> that can be used anonymously.
     /// </summary>
-    internal class Disposable : IDisposable
+    public class Disposable : IDisposable
     {
         private bool _didDispose;
         private readonly Action _disposed;

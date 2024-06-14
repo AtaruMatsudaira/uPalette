@@ -2,7 +2,7 @@
 
 namespace uPalette.Runtime.Foundation.TinyRx
 {
-    internal class AnonymousObservable<T> : IObservable<T>
+    public class AnonymousObservable<T> : IObservable<T>
     {
         private readonly Func<IObserver<T>, IDisposable> _subscribe;
 

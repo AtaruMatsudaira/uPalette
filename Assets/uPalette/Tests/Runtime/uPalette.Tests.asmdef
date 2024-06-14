@@ -1,7 +1,9 @@
 {
     "name": "uPalette.Tests",
+    "rootNamespace": "",
     "references": [
         "GUID:45481c1a5703e4b4db8cfbe8316a40db",
+        "GUID:5136c224ed664f4cae269f7383d7fe44",
         "GUID:0acc523941302664db1f4e527237feb3",
         "GUID:27619889b8ba8c24980f49ee34dbb44a"
     ],

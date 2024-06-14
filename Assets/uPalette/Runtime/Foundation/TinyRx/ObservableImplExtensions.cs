@@ -2,7 +2,7 @@
 
 namespace uPalette.Runtime.Foundation.TinyRx
 {
-    internal static class ObservableImplExtensions
+    public static class ObservableImplExtensions
     {
         public static IDisposable Subscribe<T>(this IObservable<T> self, Action<T> onNext,
             Action<Exception> onError = null, Action onCompleted = null)

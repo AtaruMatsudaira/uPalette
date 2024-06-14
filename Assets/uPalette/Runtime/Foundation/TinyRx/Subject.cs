@@ -8,7 +8,7 @@ namespace uPalette.Runtime.Foundation.TinyRx
     ///     Subject.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    internal class Subject<T> : IObserver<T>, IObservable<T>
+    public class Subject<T> : IObserver<T>, IObservable<T>
     {
         private readonly HashSet<IObserver<T>> _observers = new HashSet<IObserver<T>>();
 

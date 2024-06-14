@@ -2,6 +2,7 @@
     "name": "uPalette.Editor",
     "references": [
         "GUID:45481c1a5703e4b4db8cfbe8316a40db",
+        "GUID:5136c224ed664f4cae269f7383d7fe44",
         "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [

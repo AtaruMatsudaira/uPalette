@@ -2,7 +2,7 @@
 
 namespace uPalette.Runtime.Foundation.TinyRx
 {
-    internal sealed class AnonymousDisposable : IDisposable
+    public sealed class AnonymousDisposable : IDisposable
     {
         private readonly Action _dispose;
 
